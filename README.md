@@ -1,16 +1,44 @@
-# Integracion de Librerías - Indice de Sesiones
-[Presentaciones](https://jlportus.github.io/ClasesIntegracionLibrerias/#/md/README.md "RevealGhPages")
+# Curso ATLAS 3
 
-| Sesion                                                     | Descripcion                                  | Sesion                                                     | Descripcion                          |
-| ---------------------------------------------------------- | -------------------------------------------- | ---------------------------------------------------------- | ------------------------------------ |
-| [Sesion 0](./ApuntesYEjemplos/Sesion0/Sesion0.md)             | Presentacion e introduccion de la asignatura | [Sesion 10-11-12](./ApuntesYEjemplos/Sesion10-11-12/Sesion10-11-12.md) | JS/npm - HolaLibrería y dependencias |
-| [Sesion 1](./ApuntesYEjemplos/Sesion1/Sesion1.md)             | Conceptos generales de Librerías            |                                           |                                      |
-| [Sesion 2](./ApuntesYEjemplos/Sesion2/Sesion2.md)             | HolaLibrería                                | [Sesion 13](./ApuntesYEjemplos/Sesion13/Sesion13.md)          | Librerías Utiles de Frontend        |
-| [Sesion 3](./ApuntesYEjemplos/Sesion3/Sesion3.md)             | Gradle/Maven - repositorios                  | [Sesion 14](./ApuntesYEjemplos/Sesion14/Sesion14.md)          | Generacion web (Tomcat)              |
-| [Sesion 4](./ApuntesYEjemplos/Sesion4/Sesion4.md)             | Generacion de una librería con gestor       | [Sesion 15](./ApuntesYEjemplos/Sesion15/Sesion15.md)          | Generacion documentacion             |
-| [Sesion 5](./ApuntesYEjemplos/Sesion5/Sesion5.md)             | Trabajando con librerías en local           | [Sesion 16-17](./ApuntesYEjemplos/Sesion16-17/Sesion16-17.md) | Ejemplo de uso proyecto fin de curso |
-| [Sesion 6](./ApuntesYEjemplos/Sesion6/Sesion6.md)             | Generacion war - Servidor Web (Tomcat)       | [Sesion 18](./ApuntesYEjemplos/Sesion18/Sesion18.md)          | Resolucion de dudas                  |
-| [Sesion 7-8-9](./ApuntesYEjemplos/Sesion7-8-9/Sesion7-8-9.md) | Librerías Utiles de Backend                 | [Sesion 19-20](./ApuntesYEjemplos/Sesion19-20/Sesion19-20.md) | Ejercicio Practico                   |
+Material docente para aprender a **consumir ATLAS 3 desde el modelo mental y la arquitectura antes de entrar en detalle de API o código**.
 
-Notas:
-Asignatura centrada en la creacion, integracion y reutilizacion de librerias, gestion de dependencias y uso de APIs en proyectos reales.
+## Presentación inicial
+
+[ATLAS 3 — Arquitectura y modelo mental de consumo](./ApuntesYEjemplos/ATLAS3/00-Arquitectura-y-modelo-mental.md)
+
+## Enfoque
+
+El curso sigue una progresión común en frontend y backend:
+
+```text
+minimal → configured → extended → custom
+```
+
+La prioridad inicial es comprender:
+
+- qué problemas resuelve ATLAS;
+- cómo encaja con MEDUSA y con una aplicación consumidora;
+- qué responsabilidades pertenecen a backend, frontend y librería;
+- cómo fluye el dato desde JPA/REST hasta ModelBase, Grid o Forms;
+- qué pieza posee el estado y el lifecycle;
+- cuándo usar componentes estándar y cuándo justificar una extensión.
+
+## Estructura
+
+- [Índice ATLAS 3](./ApuntesYEjemplos/ATLAS3/README.md)
+- Arquitectura y modelo mental
+- Backend y Data REST
+- Frontend, ModelBase y metadata
+- Grid y Forms
+- ViewComponent y Components
+- Seguridad y ciclo CRUD
+- Relaciones y TreeGrid
+- Laboratorios progresivos
+
+## Fuentes de verdad
+
+El material docente deriva de la documentación **code-adjacent** de ATLAS 3 y de ejemplos consumidores. Las slides explican conceptos y decisiones; no duplican la referencia de API.
+
+Baseline documental inicial: `jlPortusOrg/ATLAS3`, rama `CorreccionesErrorFront`, revisada el 15-09-2026.
+
+> La clasificación de madurez de un módulo y la verificación concreta de un HEAD son dimensiones diferentes. El curso no presenta como probado lo que solo está documentado estáticamente.

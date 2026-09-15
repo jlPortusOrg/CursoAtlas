@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="utf-8" />
     <meta
@@ -7,13 +7,13 @@
       content="width=device-width, minimum-scale=0.5, initial-scale=1.0, maximum-scale=3.0, user-scalable=yes"
     />
 
-    <title>Presentacion Integracion Librerías</title>
+    <title>Curso ATLAS 3</title>
 
     <link rel="stylesheet" href="dist/reset.css" />
     <link rel="stylesheet" href="dist/reveal.css" />
     <link rel="stylesheet" href="dist/theme/dracula.css" />
+    <link rel="stylesheet" href="css/atlas-course.css" />
 
-    <!-- Theme used for syntax highlighted code -->
     <link rel="stylesheet" href="plugin/highlight/dracula.css" />
   </head>
   <body>
@@ -28,25 +28,17 @@
     <script src="scripts/md-utils.js"></script>
     <script src="scripts/markdown-navigation-loader.js"></script>
     <script>
-      // More info about initialization & config:
-      // - https://revealjs.com/initialization/
-      // - https://revealjs.com/config/
       Reveal.initialize({
-        hash: false, // Disabled because we use custom hash navigation for markdown files
+        hash: false,
         width: 1520,
         height: 1000,
         margin: 0.03,
         minScale: 0.5,
         maxScale: 3.0,
-
-        // Learn about plugins: https://revealjs.com/plugins/
         plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
       }).then(() => {
-        console.log('[Main] Reveal initialized, starting MarkdownNavigationLoader...');
         if (window.MarkdownNavigationLoader) {
           window.MarkdownNavigationLoader.init({ initialMd: 'README.md' });
-        } else {
-          console.error('[Main] MarkdownNavigationLoader not found!');
         }
       });
     </script>
