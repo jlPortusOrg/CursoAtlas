@@ -4,14 +4,15 @@
 
 | Módulo | Objetivo | Estado |
 |---|---|---|
-| [00 · Arquitectura y modelo mental](./00-Arquitectura-y-modelo-mental.md) | Entender el ecosistema, responsabilidades y happy paths antes del código | Piloto |
-| 01 · Backend y Data REST | Entidad, repositorio integrado, query DSL y ciclo REST | Planificado |
-| 02 · Frontend, ModelBase y metadata | Modelo autoritativo, metadata, proxy y query-state | Planificado |
-| 03 · Grid y Forms | Consumo model-first/config-first y ownership | Planificado |
-| 04 · ViewComponent y Components | Escalado de una View y primitives visuales | Planificado |
-| 05 · Seguridad y ciclo CRUD | Autenticación, autorización, datos y hooks | Planificado |
-| 06 · Relaciones y TreeGrid | Asociaciones y jerarquías | Planificado |
-| 07 · Casos avanzados | Charts, Pivot, Board, Dashboard, Scheduler, Gantt, Workflows | Posterior |
+| [00 · Arquitectura y modelo mental](./00-Arquitectura-y-modelo-mental.md) | Introducción general al ecosistema y a la escalera de consumo | Introducción |
+| [01 · Arquitectura completa y Happy Path end-to-end](./01-Arquitectura-y-happy-path-end-to-end.md) | Mapa por capas, responsabilidades, flujo completo, puntos de extensión y mini ejemplos ATLAS | Piloto ampliado |
+| 02 · Backend y Data REST | Entidad, repositorio integrado, query DSL, properties e includeAssociations | Planificado |
+| 03 · Seguridad y ciclo CRUD | REST Security, Data Security, filtro organizativo y CRUD Listener | Planificado |
+| 04 · Frontend, ModelBase y metadata | Metadata de modelo, Data REST frontend, Proxy, Store y validaciones | Planificado |
+| 05 · Grid y Forms | Consumo model-first/config-first, ownership y errores habituales | Planificado |
+| 06 · ViewComponent y Components | Separación de responsabilidades y primitives visuales | Planificado |
+| 07 · Relaciones y TreeGrid | Asociaciones, lookups y jerarquías | Planificado |
+| 08 · Casos avanzados | Charts, Pivot, Board, Dashboard, Scheduler, Gantt, Workflows | Posterior |
 
 ---
 
@@ -22,6 +23,27 @@
 **minimal → configured → extended → custom**
 
 No se empieza por el caso más flexible. Cada nivel introduce complejidad solo cuando existe una necesidad que el nivel anterior no resuelve.
+
+---
+
+## Caso conductor
+
+El curso usa un dominio común para mantener continuidad:
+
+**Taller · Orden de Trabajo · Vehículo · Cliente · Área · Operario**
+
+Permite explicar:
+
+- CRUD estándar;
+- filtros, paginación y ordenación;
+- relaciones;
+- validaciones;
+- seguridad por rol y organización;
+- Grid;
+- Forms;
+- ViewComponent;
+- TreeGrid;
+- puntos de extensión.
 
 ---
 

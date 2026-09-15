@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="560" viewBox="0 0 1500 560">
+<style>text{font-family:Arial,sans-serif;fill:#f8f8f2}.h{font-size:23px;font-weight:700}.s{font-size:16px;fill:#aeb6c8}.box{fill:#20232f;stroke:#8be9fd;stroke-width:2}.chip{fill:#24203a;stroke:#bd93f9;stroke-width:2}.a{stroke:#6272a4;stroke-width:4;fill:none;marker-end:url(#m)}</style><defs><marker id="m" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#6272a4"/></marker></defs>
+<rect x="70" y="180" width="260" height="150" rx="20" class="box"/><text x="200" y="235" text-anchor="middle" class="h">FindAllParams</text><text x="200" y="275" text-anchor="middle" class="s">contrato único</text>
+<rect x="470" y="60" width="200" height="75" rx="14" class="chip"/><text x="570" y="105" text-anchor="middle" class="s">Filter</text>
+<rect x="710" y="60" width="200" height="75" rx="14" class="chip"/><text x="810" y="105" text-anchor="middle" class="s">SortParam</text>
+<rect x="950" y="60" width="200" height="75" rx="14" class="chip"/><text x="1050" y="105" text-anchor="middle" class="s">PageParam</text>
+<rect x="470" y="230" width="200" height="75" rx="14" class="chip"/><text x="570" y="275" text-anchor="middle" class="s">Properties</text>
+<rect x="710" y="230" width="200" height="75" rx="14" class="chip"/><text x="810" y="275" text-anchor="middle" class="s">Include</text>
+<rect x="950" y="230" width="200" height="75" rx="14" class="chip"/><text x="1050" y="275" text-anchor="middle" class="s">Query</text>
+<rect x="1210" y="180" width="220" height="150" rx="20" class="box"/><text x="1320" y="235" text-anchor="middle" class="h">Repository</text><text x="1320" y="275" text-anchor="middle" class="s">find / findAs</text>
+<path d="M330 255 H462" class="a"/><path d="M1150 255 H1202" class="a"/><path d="M570 135 V220" class="a"/><path d="M810 135 V220" class="a"/><path d="M1050 135 V220" class="a"/></svg>
