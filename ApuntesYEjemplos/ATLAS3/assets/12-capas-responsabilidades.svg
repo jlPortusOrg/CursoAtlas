@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="680" viewBox="0 0 1500 680">
+<style>text{font-family:Arial,sans-serif;fill:#f8f8f2}.h{font-size:24px;font-weight:700}.s{font-size:17px;fill:#aeb6c8}.lane{fill:#1c2030;stroke:#6272a4;stroke-width:1}.box{fill:#20232f;stroke:#8be9fd;stroke-width:2}.front{fill:#24203a;stroke:#bd93f9;stroke-width:2}.back{fill:#18342d;stroke:#50fa7b;stroke-width:2}.sec{fill:#302429;stroke:#ffb86c;stroke-width:2}.a{stroke:#8be9fd;stroke-width:4;fill:none;marker-end:url(#m)}</style><defs><marker id="m" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#8be9fd"/></marker></defs>
+<rect x="30" y="55" width="1440" height="115" rx="12" class="lane"/><text x="60" y="122" class="h">Usuario / Pantalla</text>
+<rect x="30" y="180" width="1440" height="115" rx="12" class="lane"/><text x="60" y="247" class="h">Frontend ATLAS</text>
+<rect x="30" y="305" width="1440" height="115" rx="12" class="lane"/><text x="60" y="372" class="h">HTTP / Data REST</text>
+<rect x="30" y="430" width="1440" height="115" rx="12" class="lane"/><text x="60" y="497" class="h">Backend ATLAS</text>
+<rect x="30" y="555" width="1440" height="95" rx="12" class="lane"/><text x="60" y="612" class="h">Persistencia</text>
+<rect x="310" y="77" width="180" height="70" rx="14" class="box"/><text x="400" y="119" text-anchor="middle" class="s">Grid/Form</text>
+<rect x="530" y="202" width="190" height="70" rx="14" class="front"/><text x="625" y="244" text-anchor="middle" class="s">ModelBase</text>
+<rect x="760" y="202" width="190" height="70" rx="14" class="front"/><text x="855" y="244" text-anchor="middle" class="s">Store/Proxy</text>
+<rect x="990" y="327" width="190" height="70" rx="14" class="box"/><text x="1085" y="369" text-anchor="middle" class="s">REST params</text>
+<rect x="760" y="452" width="190" height="70" rx="14" class="sec"/><text x="855" y="494" text-anchor="middle" class="s">Security</text>
+<rect x="990" y="452" width="190" height="70" rx="14" class="back"/><text x="1085" y="494" text-anchor="middle" class="s">Repository</text>
+<rect x="1220" y="452" width="190" height="70" rx="14" class="back"/><text x="1315" y="494" text-anchor="middle" class="s">CRUD hooks</text>
+<rect x="990" y="575" width="190" height="55" rx="14" class="box"/><text x="1085" y="609" text-anchor="middle" class="s">JPA / DB</text>
+<path d="M490 112 C540 120 560 175 600 198" class="a"/><path d="M720 237 H752" class="a"/><path d="M950 237 C1020 260 1040 300 1065 323" class="a"/><path d="M1085 397 C1040 430 950 435 900 448" class="a"/><path d="M950 487 H982" class="a"/><path d="M1180 487 H1212" class="a"/><path d="M1085 522 V570" class="a"/></svg>

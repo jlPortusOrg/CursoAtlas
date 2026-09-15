@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="760" viewBox="0 0 1500 760">
+<style>text{font-family:Arial,sans-serif;fill:#f8f8f2}.h{font-size:20px;font-weight:700}.s{font-size:14px;fill:#aeb6c8}.lane{fill:#1c2030;stroke:#6272a4;stroke-width:1}.box{fill:#20232f;stroke:#8be9fd;stroke-width:2}.front{fill:#24203a;stroke:#bd93f9;stroke-width:2}.back{fill:#18342d;stroke:#50fa7b;stroke-width:2}.sec{fill:#302429;stroke:#ffb86c;stroke-width:2}.a{stroke:#8be9fd;stroke-width:3.5;fill:none;marker-end:url(#m)}</style><defs><marker id="m" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#8be9fd"/></marker></defs>
+<rect x="35" y="40" width="220" height="680" rx="12" class="lane"/><text x="145" y="78" text-anchor="middle" class="h">Usuario</text>
+<rect x="275" y="40" width="260" height="680" rx="12" class="lane"/><text x="405" y="78" text-anchor="middle" class="h">Frontend</text>
+<rect x="555" y="40" width="220" height="680" rx="12" class="lane"/><text x="665" y="78" text-anchor="middle" class="h">Data REST</text>
+<rect x="795" y="40" width="260" height="680" rx="12" class="lane"/><text x="925" y="78" text-anchor="middle" class="h">Seguridad</text>
+<rect x="1075" y="40" width="220" height="680" rx="12" class="lane"/><text x="1185" y="78" text-anchor="middle" class="h">Repositorio</text>
+<rect x="1315" y="40" width="150" height="680" rx="12" class="lane"/><text x="1390" y="78" text-anchor="middle" class="h">DB</text>
+<rect x="65" y="130" width="160" height="58" rx="12" class="box"/><text x="145" y="165" text-anchor="middle" class="s">filtra órdenes</text>
+<rect x="315" y="130" width="180" height="58" rx="12" class="front"/><text x="405" y="165" text-anchor="middle" class="s">Grid query</text>
+<rect x="590" y="130" width="150" height="58" rx="12" class="front"/><text x="665" y="165" text-anchor="middle" class="s">Proxy HTTP</text>
+<rect x="835" y="130" width="180" height="58" rx="12" class="sec"/><text x="925" y="165" text-anchor="middle" class="s">REST access</text>
+<rect x="1108" y="130" width="154" height="58" rx="12" class="back"/><text x="1185" y="165" text-anchor="middle" class="s">find(params)</text>
+<rect x="1335" y="130" width="110" height="58" rx="12" class="box"/><text x="1390" y="165" text-anchor="middle" class="s">select</text>
+<path d="M225 159 H307" class="a"/><path d="M495 159 H582" class="a"/><path d="M740 159 H827" class="a"/><path d="M1015 159 H1100" class="a"/><path d="M1262 159 H1327" class="a"/>
+<rect x="315" y="300" width="180" height="58" rx="12" class="front"/><text x="405" y="335" text-anchor="middle" class="s">SForm edit</text>
+<rect x="590" y="300" width="150" height="58" rx="12" class="front"/><text x="665" y="335" text-anchor="middle" class="s">load(id)</text>
+<rect x="835" y="300" width="180" height="58" rx="12" class="sec"/><text x="925" y="335" text-anchor="middle" class="s">data policy</text>
+<rect x="1108" y="300" width="154" height="58" rx="12" class="back"/><text x="1185" y="335" text-anchor="middle" class="s">findOne</text>
+<path d="M495 329 H582" class="a"/><path d="M740 329 H827" class="a"/><path d="M1015 329 H1100" class="a"/>
+<rect x="65" y="475" width="160" height="58" rx="12" class="box"/><text x="145" y="510" text-anchor="middle" class="s">guarda</text>
+<rect x="315" y="475" width="180" height="58" rx="12" class="front"/><text x="405" y="510" text-anchor="middle" class="s">validate + save</text>
+<rect x="590" y="475" width="150" height="58" rx="12" class="front"/><text x="665" y="510" text-anchor="middle" class="s">PUT/PATCH</text>
+<rect x="835" y="475" width="180" height="58" rx="12" class="sec"/><text x="925" y="510" text-anchor="middle" class="s">save allowed?</text>
+<rect x="1108" y="475" width="154" height="58" rx="12" class="back"/><text x="1185" y="510" text-anchor="middle" class="s">CrudDelegate</text>
+<rect x="1335" y="475" width="110" height="58" rx="12" class="box"/><text x="1390" y="510" text-anchor="middle" class="s">update</text>
+<path d="M225 504 H307" class="a"/><path d="M495 504 H582" class="a"/><path d="M740 504 H827" class="a"/><path d="M1015 504 H1100" class="a"/><path d="M1262 504 H1327" class="a"/>
+<text x="750" y="675" text-anchor="middle" class="s">La respuesta vuelve filtrada por seguridad de operación, filas, campos y asociaciones</text></svg>

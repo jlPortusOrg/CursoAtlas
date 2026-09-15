@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="720" viewBox="0 0 1500 720">
+<style>text{font-family:Arial,sans-serif;fill:#f8f8f2}.title{font-size:28px;font-weight:700}.h{font-size:20px;font-weight:700}.s{font-size:15px;fill:#aeb6c8}.group{fill:#1c2030;stroke:#6272a4;stroke-width:1}.stable{fill:#1f2d29;stroke:#50fa7b;stroke-width:2}.candidate{fill:#20232f;stroke:#8be9fd;stroke-width:2}.preview{fill:#302429;stroke:#ffb86c;stroke-width:2}.legacy{fill:#34202a;stroke:#ff79c6;stroke-width:2}</style>
+<text x="750" y="42" text-anchor="middle" class="title">Mapa de módulos por responsabilidad</text>
+<rect x="40" y="80" width="430" height="280" rx="20" class="group"/><text x="255" y="120" text-anchor="middle" class="h">Frontend core</text>
+<rect x="70" y="150" width="170" height="65" rx="13" class="stable"/><text x="155" y="188" text-anchor="middle" class="s">core</text>
+<rect x="270" y="150" width="170" height="65" rx="13" class="stable"/><text x="355" y="188" text-anchor="middle" class="s">data-rest</text>
+<rect x="70" y="235" width="170" height="65" rx="13" class="stable"/><text x="155" y="273" text-anchor="middle" class="s">components</text>
+<rect x="270" y="235" width="170" height="65" rx="13" class="stable"/><text x="355" y="273" text-anchor="middle" class="s">forms</text>
+<rect x="535" y="80" width="430" height="280" rx="20" class="group"/><text x="750" y="120" text-anchor="middle" class="h">Vistas de datos</text>
+<rect x="565" y="150" width="170" height="65" rx="13" class="stable"/><text x="650" y="188" text-anchor="middle" class="s">grid</text>
+<rect x="765" y="150" width="170" height="65" rx="13" class="stable"/><text x="850" y="188" text-anchor="middle" class="s">tree-grid</text>
+<rect x="565" y="235" width="170" height="65" rx="13" class="preview"/><text x="650" y="273" text-anchor="middle" class="s">pivot</text>
+<rect x="765" y="235" width="170" height="65" rx="13" class="preview"/><text x="850" y="273" text-anchor="middle" class="s">charts</text>
+<rect x="1030" y="80" width="430" height="280" rx="20" class="group"/><text x="1245" y="120" text-anchor="middle" class="h">Backend runtime</text>
+<rect x="1060" y="150" width="170" height="65" rx="13" class="stable"/><text x="1145" y="188" text-anchor="middle" class="s">atlas-medusa</text>
+<rect x="1260" y="150" width="170" height="65" rx="13" class="stable"/><text x="1345" y="188" text-anchor="middle" class="s">data-rest</text>
+<rect x="1060" y="235" width="170" height="65" rx="13" class="stable"/><text x="1145" y="273" text-anchor="middle" class="s">rest-security</text>
+<rect x="1260" y="235" width="170" height="65" rx="13" class="stable"/><text x="1345" y="273" text-anchor="middle" class="s">crud-listener</text>
+<rect x="40" y="410" width="430" height="210" rx="20" class="group"/><text x="255" y="450" text-anchor="middle" class="h">Aplicación / shell</text>
+<rect x="70" y="490" width="170" height="65" rx="13" class="stable"/><text x="155" y="528" text-anchor="middle" class="s">atlas-shell</text>
+<rect x="270" y="490" width="170" height="65" rx="13" class="candidate"/><text x="355" y="528" text-anchor="middle" class="s">angular façade</text>
+<rect x="535" y="410" width="430" height="210" rx="20" class="group"/><text x="750" y="450" text-anchor="middle" class="h">Avanzados</text>
+<rect x="565" y="490" width="170" height="65" rx="13" class="preview"/><text x="650" y="528" text-anchor="middle" class="s">dashboard/board</text>
+<rect x="765" y="490" width="170" height="65" rx="13" class="preview"/><text x="850" y="528" text-anchor="middle" class="s">gantt/scheduler</text>
+<rect x="1030" y="410" width="430" height="210" rx="20" class="group"/><text x="1245" y="450" text-anchor="middle" class="h">Frontera</text>
+<rect x="1060" y="490" width="170" height="65" rx="13" class="legacy"/><text x="1145" y="528" text-anchor="middle" class="s">legacy wrapper</text>
+<rect x="1260" y="490" width="170" height="65" rx="13" class="preview"/><text x="1345" y="528" text-anchor="middle" class="s">workflows exp.</text></svg>

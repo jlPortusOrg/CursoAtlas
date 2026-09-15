@@ -1,0 +1,81 @@
+:root {
+  --atlas-accent: #8be9fd;
+  --atlas-accent-2: #50fa7b;
+  --atlas-accent-3: #bd93f9;
+  --atlas-muted: #aeb6c8;
+  --atlas-card: rgba(255,255,255,.055);
+  --atlas-border: rgba(139,233,253,.28);
+}
+.reveal .slides { text-align: left; }
+.reveal h1, .reveal h2, .reveal h3 { text-transform: none; letter-spacing: -.02em; }
+.reveal h1 { color: var(--atlas-accent); }
+.reveal h2 { color: #f8f8f2; }
+.reveal h3 { color: var(--atlas-accent-2); }
+.reveal .atlas-kicker {
+  display: inline-block; padding: .2em .55em; margin-bottom: .5em;
+  border: 1px solid var(--atlas-border); border-radius: 999px;
+  color: var(--atlas-accent); font-size: .5em; letter-spacing: .08em; text-transform: uppercase;
+}
+.reveal .atlas-grid { display: grid; gap: 24px; align-items: stretch; }
+.reveal .atlas-grid-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.reveal .atlas-grid-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.reveal .atlas-card {
+  background: var(--atlas-card); border: 1px solid rgba(255,255,255,.12);
+  border-radius: 18px; padding: 24px 28px; box-sizing: border-box;
+}
+.reveal .atlas-card p:last-child, .reveal .atlas-card ul:last-child { margin-bottom: 0; }
+.reveal .atlas-diagram {
+  display: block; width: 100%; max-height: 610px; object-fit: contain;
+  margin: 10px auto 24px; border: 0; box-shadow: none; background: transparent;
+}
+.reveal .atlas-source {
+  margin-top: 22px; padding-top: 12px; border-top: 1px solid rgba(255,255,255,.1);
+  color: var(--atlas-muted); font-size: .42em; line-height: 1.35;
+}
+.reveal .atlas-flowline {
+  margin: 28px 0; padding: 20px 24px; text-align: center;
+  border-radius: 14px; background: rgba(139,233,253,.07);
+  border: 1px solid var(--atlas-border); font-size: .72em;
+}
+.reveal .atlas-roadmap { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: 16px; margin: 28px 0; }
+.reveal .atlas-roadmap span {
+  display: flex; align-items: center; justify-content: center; min-height: 90px;
+  padding: 14px; text-align: center; border-radius: 14px;
+  background: rgba(189,147,249,.08); border: 1px solid rgba(189,147,249,.28);
+  font-size: .52em;
+}
+.reveal code { color: #ffb86c; }
+.reveal blockquote { width: 92%; border-left: 4px solid var(--atlas-accent); padding-left: 22px; }
+@media (max-width: 900px) {
+  .reveal .atlas-grid-2, .reveal .atlas-grid-3, .reveal .atlas-roadmap { grid-template-columns: 1fr; }
+}
+
+/* Atlas Course Module 01 extensions */
+.reveal .atlas-callout {
+  margin: 22px 0;
+  padding: 18px 24px;
+  border-left: 5px solid var(--atlas-accent-2);
+  background: rgba(80,250,123,.08);
+  border-radius: 12px;
+  font-size: .58em;
+}
+.reveal .atlas-card.bad {
+  border-color: rgba(255,85,85,.45);
+  background: rgba(255,85,85,.07);
+}
+.reveal .atlas-card.good {
+  border-color: rgba(80,250,123,.45);
+  background: rgba(80,250,123,.07);
+}
+.reveal .atlas-mini {
+  font-size: .48em;
+  color: var(--atlas-muted);
+}
+.reveal pre code {
+  font-size: .82em;
+  line-height: 1.25;
+}
+.reveal .atlas-layer-title {
+  color: var(--atlas-accent);
+  font-weight: 700;
+}
